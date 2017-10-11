@@ -1,0 +1,36 @@
+{
+  "name": "shime",
+  "version": "0.0.1",
+  "description": "A '〆' plugin for Vue.",
+  "main": "lib/index.js",
+  "scripts": {
+    "prebuild": "rimraf -rf ./lib",
+    "build": "rollup -c",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jikkai/shime.git"
+  },
+  "keywords": [
+    "utils",
+    "vue"
+  ],
+  "author": "Jikkai Xiao <sonne@asaki.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jikkai/shime/issues"
+  },
+  "homepage": "https://github.com/jikkai/shime#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "rollup": "^0.50.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-uglify": "^2.0.1",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "fecha": "^2.3.1"
+  }
+}
