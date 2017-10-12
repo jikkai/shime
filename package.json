@@ -1,7 +1,7 @@
 {
   "name": "shime",
   "version": "0.0.6",
-  "description": "A '〆' plugin for Vue.",
+  "description": "A plugins 「〆」(collection) for Vue.",
   "main": "lib/index.js",
   "scripts": {
     "prebuild": "rimraf -rf ./lib",
