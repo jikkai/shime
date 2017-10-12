@@ -1,5 +1,6 @@
 import typescript from 'rollup-plugin-typescript'
 import resolve from 'rollup-plugin-node-resolve'
+import commonjs from 'rollup-plugin-commonjs'
 import uglify from 'rollup-plugin-uglify'
 
 const pkg = require('./package.json')
@@ -16,6 +17,7 @@ export default {
     typescript({
       typescript: require('typescript')
     }),
+    commonjs(),
     resolve(),
     uglify()
   ]

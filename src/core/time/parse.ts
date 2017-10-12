@@ -1,4 +1,4 @@
-import * as fecha from 'fecha'
+import fecha from 'fecha'
 
 function parse (str, fmtStr = 'YYYY-MM-DD') {
   if (str) {
