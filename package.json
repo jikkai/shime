@@ -1,6 +1,6 @@
 {
   "name": "shime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A '〆' plugin for Vue.",
   "main": "lib/index.js",
   "scripts": {
