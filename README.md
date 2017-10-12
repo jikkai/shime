@@ -8,32 +8,26 @@
 npm i shime --save
 ```
 
+## Usage
+
+```javascript
+import Vue from 'vue'
+import Shime from 'shime'
+
+Vue.use(Shime)
+```
+
 ## Feature List
 
 ### $time
 
-`$time.format(date, fmtStr)`
+`$time.format(date: Date, fmtStr: string = 'YYYY-MM-DD')`
 
-| name | type | default |
-| ---- | ---- | ---- |
-| date | Date | - |
-| fmtStr | string | YYYY-MM-DD |
-
-`$time.parse(str, fmtStr)`
-
-| name | type | default |
-| ---- | ---- | ---- |
-| date | Date | - |
-| fmtStr | string | YYYY-MM-DD |
+`$time.parse(str: string, fmtStr: string = 'YYYY-MM-DD')`
 
 ### $storage
 
-`$storage(key, value?)`
-
-| name | type | default |
-| ---- | ---- | ---- |
-| key | string | - |
-| value | string | number | boolean | - |
+`$storage(key: string, value?: string | number | boolean)`
 
 `$storage.clear()`
 
