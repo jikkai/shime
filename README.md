@@ -12,14 +12,14 @@ npm i shime --save
 
 ### $time
 
-* $time.format(date, fmtStr)
+`$time.format(date, fmtStr)`
 
 | name | type | default |
 | ---- | ---- | ---- |
 | date | Date | - |
 | fmtStr | string | YYYY-MM-DD |
 
-* $time.parse(str, fmtStr)
+`$time.parse(str, fmtStr)`
 
 | name | type | default |
 | ---- | ---- | ---- |
@@ -28,14 +28,14 @@ npm i shime --save
 
 ### $storage
 
-* $storage(key, value?)
+`$storage(key, value?)`
 
 | name | type | default |
 | ---- | ---- | ---- |
 | key | string | - |
 | value | string | number | boolean | - |
 
-* $storage.clear()
+`$storage.clear()`
 
 ## Dependencies List
 
